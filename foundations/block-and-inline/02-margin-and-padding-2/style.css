@@ -30,9 +30,16 @@ body {
 }
 
 button {
-  display: block;
+  display: flex;
   background: white;
   border: 1px solid #eee;
   padding: 8px 24px;
   margin: 0 auto;
+  justify-content: center;
+
+}
+
+.container {
+  display: flex;
+  justify-content: center;
 }
